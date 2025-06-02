@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+            <div class="question" id="question"></div>
+            <div class="options">
+                <div class="option" id="opt0" onclick="selectOption(0)"></div>
+                <div class="option" id="opt1" onclick="selectOption(1)"></div>
+            </div>
+        </div>
+    </div>
+    <div id="result-container" style="display: none;">
+        <div class="result-label">SUA PONTUAÇÃO FINAL FOI DE:</div>
+            <div class="score-box">
+                <div class="score-number" id="score">0</div>
+                <div class="score-total">DE UM TOTAL DE 10 PONTOS</div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

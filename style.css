@@ -1,0 +1,113 @@
+body {
+    background: #f0f8ff;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "League Gothic", sans-serif;
+    font-size: 2.25rem;
+    display: flex;
+}
+
+.quiz-container {
+    background: #44B5E7;
+    border-radius: 24px;
+    padding: 2.75rem 2.313rem 2.063rem 2.5rem;
+    width: 100%;
+    max-width: 39.625rem;
+    max-height: 33.75rem;
+}
+
+.question {
+    background: #004d80;
+    border-radius: 24px;
+    padding: 2.063rem 1.938rem 2.063rem 1.938rem;
+    text-align: center;
+    color: #fff;
+    max-height: 10rem;
+}
+
+.options {
+    display: flex;
+    margin-top: 2.063rem;
+    text-align: center;
+    gap: 1.938rem;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 24px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    color: #005C99;
+    transition: background 0.3s;
+    height: 16.438rem;
+    width: 16.438rem;
+}
+
+.question-text {
+    margin: 0;
+    font-size: 2.25rem;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 1.2;
+    white-space: normal;
+}
+
+.option-text {
+    font-size: 2.25rem;
+    line-height: 1.2;
+    padding: 3rem;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.option:hover {
+    background: rgba(0, 92, 153, 0.25);
+}
+
+#result-container {
+    width: 39.625rem;
+    max-width: 39.625rem;
+    max-height: 33.75rem;
+    padding: 2.75rem 2.313rem 2.063rem 2.5rem;
+    background: #44B5E7;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.result-label {
+    max-height: 10rem;
+    background: #D9D9D9;
+    border-radius: 16px;
+    font-weight: bold;
+    color: #004d80;
+    margin-bottom: 2.063rem;
+    height: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-box {
+    background: linear-gradient(to bottom, #44B5E7, #004d80);
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 16.438rem;
+}
+
+.score-number {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.score-total {
+    font-size: 2.5rem;
+}
