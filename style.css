@@ -24,11 +24,9 @@ body {
     padding: 2.063rem 1.938rem 2.063rem 1.938rem;
     text-align: center;
     color: #fff;
-    background: #D9D9D9;
     border-radius: 24px;
     padding: 2.063rem 1.938rem 2.063rem 1.938rem;
     text-align: center;
-    color: #004d80;
     max-height: 10rem;
 }
 
@@ -44,7 +42,6 @@ body {
     justify-content: center;
     align-items: center;
     background: #fff;
-    background: #d9d9d9;
     border-radius: 24px;
     cursor: pointer;
     flex: 1;
@@ -74,7 +71,6 @@ body {
 
 .option:hover {
     background: rgba(0, 92, 153, 0.25);
-    background: #c9ddeb;
 }
 
 #result-container {
